@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rsa-implementation",
+  "private_key_id": "f91734ecfed021e53fdd0176297f04b8b71f12b4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnh3Zr+aTcOzcZ\nNDQOrwjptu1ereU0fWHttMLopuguUALiPXEsG9cS4m5lyusDe2PRY/gsHxMOJHev\nqhi8Xyulnt3/+cq9eWGdN6LL1KDq+bQpCeztaQIsOVS9WDBF/GwbGCP4gUCTTLqX\nMccyu9ND1Z+XZpQl4vmk9mWT3InWZs4V1biQYTknYY6PhfuNTm5Jy3OkTgNdoQnX\nfK3tAQ8CiWpIBl/62RMZ0dwfJzJRHyirVw4F0Jfivc4To4n2stL+0l3cIlMNYamR\nLB2hpEK1JIxq3BVzXQZ870FiWUKHX26OKBTV4cVk+hpry7QT41U6gGfDyyxap4B8\nQhcQxihdAgMBAAECggEAH43sSDolSzX8Ess6YumlDCBgZUzrtw9GurcpXxjQ8qgv\nYt2fy2cTA4OSt6mYyncbPf1OaUERHcDQqk2nixOB7RgXSHeMMFQEhtBL4YiTJq8R\nuAkejzkQJ7REucU6knQRCKlrXQs7VoNFQeUmV+/4wvYhsSqpDNnLm76tM0R+0dsM\nm446DhwfkHXwuvGolaxk1i3S+RLLcfHr+8xCTEBOkfcGrgzS1zcYD5qwFuTCnKNl\nOt62GQjvBhv7yJ1IdFCCDTDvN2XTvG40WL41WCxxGwvyC4icHfBqViBTRYiiI4ts\nuJ8RLkuD4o1vz+aA/5Wpxxl75+S4rLYqxHJSF1CMIQKBgQDrqp1SsHaHMG2ffPqo\ntX/syUBb/OvoC6Ny+uEK8Hy8pw6Cjmfw5b1qa0ow1hYrGkYg+fMIRGI+UM6Hh/1k\ncAfF5VHZnUVBgqEeMAvjUxRzIsPLkUYMdAF1K/csPS7/elCDQmDC8lD/1q9X9oxt\nRxDAKX+OL6K4HGn9zifNkaFIZwKBgQC1+9XliS7uwj68HpsthuesFninBf+gx6z/\n7jB/eJBf6jaJYfIIzDux1XZBPFtTLBrbmMEUB3ckVSYnF9JBsp1Qgcw/DdC55Pec\nUvhy6nsLpFuBJq3u+si7J+8YLQw9KFFxmYMX3/vnm4mXNed9wZGEYGgmXeRrQRWz\n5r0TYDremwKBgGMJFwYJ3DWht1+/sMK3S2QhiuddWXHxeiW2ol3rhC/vcFyTJcEJ\netk+7zWosjY422G+SFCgFD0lzjUMhALyRYH3hbcSrWkDUVwTStukLULZSDjC+xH+\nqiIocL3plFeOekk+2tTx6fIpsRQhKxA9Ph/TEKSbBiGi5zPer8FmwsVfAoGAM3W3\nEmUsZE+BNejhsIoJUNw52eEUW/6aqPRNun35NWYhbc/IhTxbVPorql7K5EYAgkA7\nuNIzmo6Jb1yJFBLR8UYC34GkmCxq6EV+A+DSUoRza53oaT95K5MrRQbYAyM3hIwI\nSeQIc4HD8oJHp4PpBinMyaybPsj0vh5tMOFxRCkCgYEAwTTNE6t4eMVJXXA7xU2Y\nekpKO4NxuYJjuayuPzJk5tNv+W27ubkQzgBQzuRtIk2E+KlxUjV/IFfp9HcUDSN5\nXCOBGMFtW9mjQe9qgi6XnkWTSXdwErXzXVbh8VlVN/1/sEl9lpDCT+GuMUACAypD\nwyEWkLqLcmccXpoIurn+sbQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-6kzws@rsa-implementation.iam.gserviceaccount.com",
+  "client_id": "111076654477829218271",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-6kzws%40rsa-implementation.iam.gserviceaccount.com"
+}

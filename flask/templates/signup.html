@@ -1,0 +1,15 @@
+
+{% extends 'base.html' %}
+
+{% block body %}
+<form action="/signup" class="form-group"  method="POST">
+    <label for="fullname">Full Name</label>
+    <input type="text" name="fullname" class="form-control" required>
+    <label for="username">User Name</label>
+    <input type="text" name="username" class="form-control" required>
+    <label for="password">Password</label>
+    <input type="password" name="password" class="form-control" required>
+    <button type="submit" class="btn btn-outline-light">Submit</button>
+</form>
+
+{% endblock  %}

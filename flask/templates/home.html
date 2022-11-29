@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+    <br><br>
+    <form action="#" method="POST" name="upload-file" enctype="multipart/form-data">
+        <div class="input-group">
+            <div class="heading">
+                <h4>Please Upload the File to detect Number Plate (jpg/jpeg/png)</h4>
+            </div>
+            <div>
+                <input type="file" class="form-control" name="image_name" accept="image/png, image/jpg, image/jpeg" required>
+                <input type="submit" value="Upload" class="btn btn-outline-secondary">
+            </div>
+
+        </div>
+    </form>
+</div>
+
+{% if upload %}
+<div class="container">
+    <br><br>
+    <!-- <table>
+        <tr>
+            <td>
+                <img class="rounded float-left img-fluid" src="/static/upload/{{ upload_image }}" alt="">
+            </td>
+            <td>
+                <img class="rounded float-right img-fluid" src="/static/predict/{{ upload_image }}" alt="">
+            </td>
+        </tr>
+
+    </table> -->
+    <br>
+    <table style="border: solid black;">
+        <tr>
+            <td>
+                <img class="rounded float-left img-fluid" src="/static/upload/{{ upload_image }}" alt="">
+            </td>
+            <td>
+                <img class="rounded float-right img-fluid" src="/static/predict/{{ upload_image }}" alt="">
+            </td>
+        </tr>
+        <tr style="border: solid black;">
+            <th style="text-align:center;">Number of Licence Plate Detected = {{no}}</th>
+            <th></th>
+        </tr>
+
+        {% if crypted_msg %}
+        <tr>
+            <td class="encrypted_msg hidden">
+                <span class="side-heading">Encrypted Message</span>
+            </td>
+            <td class="decrypted_msg hidden">
+                <span class="side-heading">Decrypted Message</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="encrypted_msg hidden" style="width: 50%;">
+                <textarea cols="60" rows="10">
+                                {{ crypted_msg }}
+                            </textarea>
+            </td>
+            <td class="decrypted_msg hidden">
+                <textarea cols="60" rows="10">
+                                    {{ decrypted }}
+                                </textarea>
+            </td>
+        </tr>
+        {% endif %}
+        <tr>
+            <td class="cryption-btns">
+                <button type="button" class="btn btn-outline-light" id="encrypt">Encrypt</button>
+            </td>
+            <td class="cryption-btns encrypted_msg hidden">
+                <button type="button" class="btn btn-outline-light" id="decrypt">Decrypt</button>
+            </td>
+        </tr>
+
+
+    </table>
+
+</div>
+
+
+
+{% endif %}
+<!-- <div class="flex-div">
+    <button type="button" class="btn btn-outline-light" id="encrypt">Encrypt</button>
+    <button type="button" class="btn btn-outline-light" id="decrypt">Decrypt</button>
+</div> -->
+<div class="cryption-msg"></div>
+<span></span>
+
+{% endblock %}

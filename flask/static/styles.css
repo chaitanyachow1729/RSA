@@ -1,0 +1,116 @@
+body{
+    background: #000;
+    color: #FFF;
+}
+li{
+    list-style-type: none;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+.success{
+    color: blue;
+    text-align: center;
+}
+input.form-control {
+    margin: 3px 0px 10px 0px;
+}
+#content {
+    width: 85%;
+    margin: 30px auto;
+}
+.heading {
+    clear: both;
+    width: 100%;
+}
+.input-group {
+    margin-left: 30px;
+}
+form:not(form[name="upload-file"]){
+    width: 50%;
+    margin: 30px auto;
+}
+nav.nav-bar {
+    margin: 0 25px;
+}
+nav h1.display-6 {
+    font-weight: 600;
+}
+a:hover {
+    color: #fff;
+}
+a.column-left {
+    float: left;
+    padding-top: 5px;
+}
+a.column-right {
+    float: right;
+    padding: 20px 39px 0px 0px;
+}
+.nav-bar {
+    margin: 0 25px;
+    background: darkgoldenrod;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+}
+.nav-links{
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+nav div {
+    clear: both;
+}
+header {
+    background: #ffae34;
+    height: 70px;
+}
+.sign-up{
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.btn-outline-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.flex-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-outline-light {
+    border: 2px solid;
+}
+.hidden{
+    display: none;
+}
+td {
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+}
+textarea {
+    border-radius: 10px;
+    background: honeydew;
+}
+.cryption-msg {
+    text-align: center;
+    margin: 10px;
+    color: #e5ffcb;
+}
+.cryption-btns{
+    text-align: center;
+}
+span.side-heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffae34;
+}
+img.rounded.img-fluid {
+    max-width: 90%;
+    width: 100%;
+}

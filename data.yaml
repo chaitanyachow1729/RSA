@@ -1,0 +1,6 @@
+train: data_im/train
+val: data_im/test
+nc: 1
+names: [
+    'license_plate'
+]
